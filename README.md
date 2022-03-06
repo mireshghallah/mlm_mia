@@ -1,4 +1,3 @@
-# Read Me MIA
 
 # **MLM Membership Inference Attack**
 
