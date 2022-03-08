@@ -116,17 +116,19 @@ def get_threshold_precision_diff_tail_acc(main_in_list, main_out_list, ref_in_li
     
         
     
+    
     if population_in_list is not None and population_out_list is not None:
         diff_population = [(s_m-s_ref) for s_m,s_ref in zip(population_in_list,population_out_list)]
-        diff_population.sort(reverse=True)    
-        threshold = diff_population[int(len(diff_population)*0.9)+1]#-150
+        #diff_population.sort(reverse=True)   
+        diff_pop_sorted = sorted(diff_population,reverse=True) 
+        threshold = diff_pop_sorted[int(len(diff_pop_sorted)*0.9)+1]#-150
         population_in_list.sort(reverse=True)
         threshold_pop = population_in_list[int(len(population_in_list)*0.9)+1]#-150
     else:
-        diff_out.sort(reverse=True)
-        threshold = diff_out[int(len(diff_out)*0.9)+1]#-150
-        main_out_list.sort(reverse=True)
-        threshold_pop=  main_out_list[int(len(main_out_list)*0.9)+1]#-150
+        diff_out_sorted = sorted(diff_out, reverse=True)
+        threshold = diff_out_sorted[int(len(diff_out_sorted)*0.9)+1]#-150
+        main_out_list_sorted = sorted(main_out_list, reverse=True)
+        threshold_pop=  main_out_list_sorted[int(len(main_out_list_sorted)*0.9)+1]#-150
         
     
         
