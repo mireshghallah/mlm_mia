@@ -10,7 +10,7 @@ python ./codes/get_enorm_pytorch_bert.py \
 --out_path ./enorm_values \
 --input_file samples_sub_id_short.csv \
 --model_name ClinicalBERT_1a \
---model_path /data/fmireshg/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
+--model_path /data/user/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
 #pretraining
 
 python ./codes/get_enorm_pytorch_bert.py \
@@ -24,7 +24,7 @@ python ./codes/get_enorm_pytorch_bert.py \
 --out_path ./enorm_values \
 --input_file i2b2_samples_sub_id_short.csv \
 --model_name ClinicalBERT_1a \
---model_path /data/fmireshg/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
+--model_path /data/user/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
 
 python ./codes/get_enorm_pytorch_bert.py \
 --max_iter 1  \
@@ -37,7 +37,7 @@ python ./codes/get_enorm_pytorch_bert.py \
 --out_path ./enorm_values \
 --input_file out_samples_sub_id_short.csv \
 --model_name ClinicalBERT_1a \
---model_path /data/fmireshg/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
+--model_path /data/user/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
 
 
 
@@ -52,7 +52,7 @@ python ./codes/get_enorm_pytorch_bert.py \
 --out_path ./enorm_values \
 --input_file samples_sub_id_short_2.csv \
 --model_name ClinicalBERT_1a \
---model_path /data/fmireshg/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
+--model_path /data/user/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
 #pretraining
 
 python ./codes/get_enorm_pytorch_bert.py \
@@ -66,7 +66,7 @@ python ./codes/get_enorm_pytorch_bert.py \
 --out_path ./enorm_values \
 --input_file i2b2_samples_sub_id_short_2.csv \
 --model_name ClinicalBERT_1a \
---model_path /data/fmireshg/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
+--model_path /data/user/sample_extraction/physionet.org/files/clinical-bert-mimic-notes/1.0.0/model_outputs/ClinicalBERT_1a
 #pretraining
 
 
