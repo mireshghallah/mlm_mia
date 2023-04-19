@@ -27,7 +27,7 @@ You can request access to i2b2 dataset here: [https://portal.dbmi.hms.harvard.ed
 
 ### Gaining access to the processed sequences used for experiments
 
-Once you have gained access to MIMIC-III and i2b2, forward the access grant email to fmireshg@eng.ucsd.edu and you will have the processed data shared with you.
+
 
 Once you have received the processed files, make a folder named ‘CSV_Files’ and place the csv files sent to you there.
 
